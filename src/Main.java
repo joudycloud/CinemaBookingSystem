@@ -13,6 +13,7 @@ public class Main {
     static String[][]Seat;
     static  Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
+        // System.out.println("just test adding and commit");
         Seat= new String[][]{{"A1","A2","A3","A4"},
                 {"B1","B2","B3","B4"},
                 {"C1","C2","C3","C4"}};
@@ -158,5 +159,6 @@ static double printReceipt(String movieName ,int ticketsNumber , String roomType
     System.out.println("Total = "+total);
     return total;
 }
+
 
 }
